@@ -1,0 +1,23 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "embed-visio-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/embedVisio/EmbedVisioWebPart.js",
+          "manifest": "./src/webparts/embedVisio/EmbedVisioWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "visio-web-embedded":{
+      "path": "./node_modules/sp-client-custom-fields/dist/sp-client-custom-fields.bundle.js",
+      "globalName": "OfficeExtension"
+    } 
+  },
+  "localizedResources": {
+    "EmbedVisioWebPartStrings": "lib/webparts/embedVisio/loc/{locale}.js"
+  }
+}

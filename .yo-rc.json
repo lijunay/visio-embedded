@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.1",
+    "libraryName": "visio-embedded",
+    "libraryId": "55748e87-56bd-4dc1-bd6e-ee6c5d3ab274",
+    "environment": "spo"
+  }
+}
